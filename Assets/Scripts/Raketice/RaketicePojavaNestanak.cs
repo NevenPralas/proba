@@ -29,7 +29,7 @@ public class RaketicePojavaNestanak : MonoBehaviour
             childrenList[0].GetComponent<MeshRenderer>().enabled = true;
             childrenList[1].GetComponent<TextMeshPro>().text = "";
         }
-        else if (GlobalMemory.brojRaketa == 0)
+        else if (GlobalMemory.brojRaketa == 0 && GlobalMemory.cekanje == false)
         {
             childrenList[0].GetComponent<MeshRenderer>().enabled = false;
             childrenList[1].GetComponent<TextMeshPro>().text = "R";

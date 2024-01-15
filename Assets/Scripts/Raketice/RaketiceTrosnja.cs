@@ -50,10 +50,13 @@ public class RaketiceTrosnja : MonoBehaviour
             {
                 Debug.Log("R" + GlobalMemory.brojRaketa);
 
-                tekstic.GetComponent<TextMeshPro>().text = "R";
+                tekstic.GetComponent<TextMeshPro>().text = "...";
 
                 lastRPressTime = currentTime;
                 spaceEnabled = false;
+
+                GlobalMemory.cekanje = true;
+
                 Invoke("EnableSpace", 3.0f);
              
             }
@@ -73,6 +76,7 @@ public class RaketiceTrosnja : MonoBehaviour
         if (GlobalMemory.brojRaketa != 1)
         {
             GlobalMemory.brojRaketa = 1;
+            GlobalMemory.cekanje = false;
         }
         
     }
