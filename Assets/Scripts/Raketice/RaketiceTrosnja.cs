@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -12,9 +13,13 @@ public class RaketiceTrosnja : MonoBehaviour
     public GameObject raketica;
     private Vector3 pocetnaPozicija;
 
+    private Rigidbody rb;
+
+    public GameObject tekstic;
     private void Start()
     {
         pocetnaPozicija = raketica.transform.localPosition;
+        rb = raketica.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -45,10 +50,7 @@ public class RaketiceTrosnja : MonoBehaviour
             {
                 Debug.Log("R" + GlobalMemory.brojRaketa);
 
-                if (GlobalMemory.brojRaketa != 1)
-                {
-                    GlobalMemory.brojRaketa = 1;
-                }
+                tekstic.GetComponent<TextMeshPro>().text = "R";
 
                 lastRPressTime = currentTime;
                 spaceEnabled = false;
@@ -67,6 +69,12 @@ public class RaketiceTrosnja : MonoBehaviour
         Debug.Log(pocetnaPozicija);
         raketica.transform.localPosition = pocetnaPozicija;
 
+        rb.constraints = RigidbodyConstraints.FreezePosition;
+        if (GlobalMemory.brojRaketa != 1)
+        {
+            GlobalMemory.brojRaketa = 1;
+        }
+        
     }
 
    

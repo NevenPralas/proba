@@ -5,5 +5,6 @@ using UnityEngine;
 public class GlobalMemory : MonoBehaviour
 {
     public static int brojRaketa = 1;
+
 }
 
