@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraControl : MonoBehaviour
@@ -11,9 +9,9 @@ public class CameraControl : MonoBehaviour
         float unosVerticalnoKamere = 0;
         float unosHorizontalnoKamere = 0;
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.S))
             unosVerticalnoKamere = 1;
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.W))
             unosVerticalnoKamere = -1;
 
         if (Input.GetKey(KeyCode.A))

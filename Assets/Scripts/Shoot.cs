@@ -17,13 +17,16 @@ public class Shoot : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isMoving)
         {
+            GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             StartMovement();
+            Invoke("StopMovement", 2.0f);
         }
 
         if (isMoving)
         {
             rb.velocity = transform.forward * speed;
         }
+
     }
 
     void OnCollisionEnter(Collision collision)
@@ -45,4 +48,6 @@ public class Shoot : MonoBehaviour
         isMoving = false;
         rb.velocity = Vector3.zero;
     }
+
 }
+

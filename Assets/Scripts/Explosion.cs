@@ -7,15 +7,17 @@ public class Explosion : MonoBehaviour
     public GameObject explosionPrefab;
     public GameObject soldierPrefab;
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Meta"))
+        if (other.gameObject.CompareTag("Meta"))
         {
-            InstantiateExplosion(collision.contacts[0].point);
+            InstantiateExplosion(other.ClosestPointOnBounds(transform.position));
 
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
         }
     }
+
+
 
     void InstantiateExplosion(Vector3 position)
     {

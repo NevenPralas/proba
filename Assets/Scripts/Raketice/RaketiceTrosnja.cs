@@ -1,12 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class RaketiceTrosnja : MonoBehaviour
 {
     private float lastSpacePressTime;
     private float lastRPressTime;
     private bool spaceEnabled = true;
+
+    public GameObject raketica;
+    private Vector3 pocetnaPozicija;
+
+    private void Start()
+    {
+        pocetnaPozicija = raketica.transform.localPosition;
+    }
 
     // Update is called once per frame
     void Update()
@@ -36,14 +45,15 @@ public class RaketiceTrosnja : MonoBehaviour
             {
                 Debug.Log("R" + GlobalMemory.brojRaketa);
 
-                if (GlobalMemory.brojRaketa != 3)
+                if (GlobalMemory.brojRaketa != 1)
                 {
-                    GlobalMemory.brojRaketa = 3;
+                    GlobalMemory.brojRaketa = 1;
                 }
 
                 lastRPressTime = currentTime;
                 spaceEnabled = false;
                 Invoke("EnableSpace", 3.0f);
+             
             }
         }
     }
@@ -51,5 +61,13 @@ public class RaketiceTrosnja : MonoBehaviour
     void EnableSpace()
     {
         spaceEnabled = true;
+
+        raketica.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        raketica.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        Debug.Log(pocetnaPozicija);
+        raketica.transform.localPosition = pocetnaPozicija;
+
     }
+
+   
 }
