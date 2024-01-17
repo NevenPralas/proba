@@ -72,7 +72,7 @@ public class RaketiceTrosnja : MonoBehaviour
         Debug.Log(pocetnaPozicija);
         raketica.transform.localPosition = pocetnaPozicija;
 
-        rb.constraints = RigidbodyConstraints.FreezePosition;
+        rb.isKinematic = true;
         if (GlobalMemory.brojRaketa != 1)
         {
             GlobalMemory.brojRaketa = 1;

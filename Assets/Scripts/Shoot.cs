@@ -17,7 +17,7 @@ public class Shoot : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isMoving)
         {
-            GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+            rb.isKinematic = false;
             StartMovement();
             Invoke("StopMovement", 2.0f);
         }
