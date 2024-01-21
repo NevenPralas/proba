@@ -6,7 +6,7 @@ public class MortarSquadLeader : MonoBehaviour {
     // All of the crewmembers for the mortar team should have this script component "MortarCrewLoader"
     public MortarCrewLoader[] myLoader;
     private Animator myAnim;
-  //  public float fireChance3outof5 = 2f;
+    public float fireChance3outof5 = 2f;
     public int salvoCount = 5;
     public int roundsFired = 0;
     private float chanceResult = 0f;
@@ -28,12 +28,12 @@ public class MortarSquadLeader : MonoBehaviour {
     // This function is called from the Leader's Idle animation and it decides to fire or not fire randomly
     public void DecidetoFire()
     {
-        if (chanceResult == 0)
+        chanceResult = Random.Range(0, 5);
+        if (chanceResult <= fireChance3outof5)
         {
             myAnim.SetTrigger("fire");
+            MortarShell.broj = MortarShell.broj - 5;
         }
-        if (chanceResult != 3) chanceResult++;
-        else chanceResult = 0;
     }
 
     // This function is called from the leader's fire animation and it keeps triggering the fire mode until all rounds are fired.

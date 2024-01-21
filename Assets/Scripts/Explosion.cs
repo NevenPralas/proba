@@ -14,7 +14,15 @@ public class Explosion : MonoBehaviour
             InstantiateExplosion(other.ClosestPointOnBounds(transform.position));
 
             Destroy(other.gameObject);
+            StartCoroutine(Pobjeda());
+            
         }
+    }
+
+    IEnumerator Pobjeda()
+    {
+        yield return new WaitForSeconds(5f);
+        GlobalMemory.pobjeda = true;
     }
 
 

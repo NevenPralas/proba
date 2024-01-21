@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Meta
   - Terrain
+  - TerrainD
+  - TerrainF
+  - TerrainB
+  - TerrainL
   layers:
   - Default
   - TransparentFX

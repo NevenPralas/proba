@@ -2,21 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MortarShell : MonoBehaviour
-{
+public class MortarShell : MonoBehaviour {
 
     private Rigidbody mortarRigidbody;
     public GameObject explosionPrefab;
     public GameObject explosionNoCrater;
-    // Use this for initialization
-    void Start()
-    {
-        mortarRigidbody = GetComponent<Rigidbody>();
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
+    public GameObject teren1;
+    public GameObject teren2;
+    public GameObject teren3;
+    public GameObject teren4;
+    public GameObject teren5;
+
+    public static int broj = 20;
+    // Use this for initialization
+	void Start () {
+        mortarRigidbody = GetComponent<Rigidbody>();
+
+        teren1 = GameObject.FindWithTag("Terrain");
+        teren2 = GameObject.FindWithTag("TerrainF");
+        teren3 = GameObject.FindWithTag("TerrainB");
+        teren4 = GameObject.FindWithTag("TerrainL");
+        teren5 = GameObject.FindWithTag("TerrainD");
+	}
+	
+	// Update is called once per frame
+	void Update () {
         this.transform.forward =
         Vector3.Slerp(this.transform.forward, mortarRigidbody.velocity.normalized, Time.deltaTime);
     }
@@ -24,48 +35,42 @@ public class MortarShell : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
 
-        GameObject terrainObject1 = GameObject.FindGameObjectWithTag("Terrain");
-        // Dohvati granice objekta tipa Plane
-        Renderer terrainRenderer1 = terrainObject1.GetComponent<Renderer>();
-        Bounds terrainBounds1 = terrainRenderer1.bounds;
+        int randombroj = Random.Range(1, broj + 1);
 
-        // Postavi novu poziciju za raketu unutar granica objekta tipa Plane
-        float x = Random.Range(terrainBounds1.min.x, terrainBounds1.max.x);
-        float y = Random.Range(terrainBounds1.min.y, terrainBounds1.max.y);
-        float z = Random.Range(terrainBounds1.min.z, terrainBounds1.max.z);
-        transform.position = new Vector3(
-            x, y, z
-        );
+        Debug.Log(broj);
+        Debug.Log(randombroj);
 
-        if (collision.gameObject.CompareTag("Terrain"))
+        if (randombroj == 1)
         {
-            // Dohvati referencu na objekt tipa Plane s tagom "Terrain"
-            GameObject terrainObject = GameObject.FindGameObjectWithTag("Terrain");
+            Instantiate(explosionPrefab, teren1.transform.position, Quaternion.identity);
 
-            if (terrainObject != null)
-            {
-                // Dohvati granice objekta tipa Plane
-                Renderer terrainRenderer = terrainObject.GetComponent<Renderer>();
-                Bounds terrainBounds = terrainRenderer.bounds;
+            GlobalMemory.staklo = true;
 
-                // Postavi novu poziciju za instanciranje eksplozije
-                Vector3 randomPosition = new Vector3(x, y, z);
-
-                // Instanciraj eksploziju na novoj poziciji
-                Instantiate(explosionPrefab, randomPosition, Quaternion.identity);
-            }
+            GlobalMemory.poraz = true;
+            
         }
         else
         {
-            GameObject terrainObject = GameObject.FindGameObjectWithTag("Terrain");
-
-            Renderer terrainRenderer = terrainObject.GetComponent<Renderer>();
-            Bounds terrainBounds = terrainRenderer.bounds;
-
-            // Postavi novu poziciju za instanciranje eksplozije
-            Vector3 randomPosition = new Vector3(x, y, z);
-
-            Instantiate(explosionNoCrater, randomPosition, Quaternion.identity);
+            int randomBroj2 = Random.Range(1, 5);
+            if(randomBroj2 == 1)
+            {
+                Instantiate(explosionPrefab, teren2.transform.position, Quaternion.identity);
+            }
+            else if(randomBroj2 == 2)
+            {
+                Instantiate(explosionPrefab, teren3.transform.position, Quaternion.identity);
+            }
+            else if(randomBroj2 == 3)
+            {
+                Instantiate(explosionPrefab, teren4.transform.position, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(explosionPrefab, teren5.transform.position, Quaternion.identity);
+            }
         }
+        
+        Destroy(gameObject);
+
     }
 }

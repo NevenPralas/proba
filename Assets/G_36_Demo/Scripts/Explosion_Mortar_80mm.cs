@@ -23,7 +23,7 @@ public class Explosion_Mortar_80mm : MonoBehaviour {
 
         if(crater != null)
         {
-            Invoke("PlaceCrater", .3f);
+           // Invoke("PlaceCrater", .3f);
         }
         
         myAudio.clip = explosionSound;
@@ -33,7 +33,7 @@ public class Explosion_Mortar_80mm : MonoBehaviour {
 	
     private void PlaceCrater()
     {
-        Instantiate(crater, craterLocation.position, Quaternion.identity);
+      //  Instantiate(crater, craterLocation.position, Quaternion.identity);
     }
 	
 }

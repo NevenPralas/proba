@@ -17,6 +17,7 @@ public class Shoot : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isMoving)
         {
+            Debug.Log(GlobalMemory.pobjeda);
             rb.isKinematic = false;
             StartMovement();
             Invoke("StopMovement", 2.0f);

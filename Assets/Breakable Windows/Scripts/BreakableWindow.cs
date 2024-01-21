@@ -60,6 +60,15 @@ public class BreakableWindow : MonoBehaviour {
             Debug.LogWarning("Warning: Window must not be rotated around x and z!");
     }
 
+    private void Update()
+    {
+
+        if (GlobalMemory.staklo)
+        {
+            breakWindow();
+        }
+    }
+
     private void bakeVertices(bool trianglesToo = false)
     {
         vertices = new Vector3[(partsX + 1) * (partsY + 1)];
