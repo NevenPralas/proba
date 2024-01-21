@@ -17,6 +17,10 @@ public class Explosion : MonoBehaviour
             StartCoroutine(Pobjeda());
             
         }
+        else if (other.gameObject.CompareTag("OstaliObjekti"))
+        {
+            InstantiateExplosion2(other.ClosestPointOnBounds(transform.position));
+        }
     }
 
     IEnumerator Pobjeda()
@@ -52,5 +56,27 @@ public class Explosion : MonoBehaviour
         soldier1.transform.Rotate(90f, 0f, 0f);
         soldier2.transform.Rotate(90f, 0f, 0f);
         soldier2.transform.Translate(Vector3.left * 3f);
+    }
+
+    void InstantiateExplosion2(Vector3 position)
+    {
+        GameObject explosion1 = Instantiate(explosionPrefab, position, Quaternion.identity);
+        GameObject explosion2 = Instantiate(explosionPrefab, position, Quaternion.identity);
+        GameObject explosion3 = Instantiate(explosionPrefab, position, Quaternion.identity);
+        GameObject explosion4 = Instantiate(explosionPrefab, position, Quaternion.identity);
+        GameObject explosion5 = Instantiate(explosionPrefab, position, Quaternion.identity);
+
+
+        explosion2.transform.Translate(Vector3.left * 3f);
+        explosion3.transform.Translate(Vector3.right * 3f);
+        explosion4.transform.Translate(Vector3.forward * 3f);
+        explosion5.transform.Translate(Vector3.back * 3f);
+
+        explosion1.transform.Translate(Vector3.down * 1f);
+        explosion2.transform.Translate(Vector3.down * 1f);
+        explosion3.transform.Translate(Vector3.down * 1f);
+        explosion4.transform.Translate(Vector3.down * 1f);
+        explosion5.transform.Translate(Vector3.down * 1f);
+
     }
 }

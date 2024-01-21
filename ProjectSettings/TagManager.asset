@@ -10,6 +10,7 @@ TagManager:
   - TerrainF
   - TerrainB
   - TerrainL
+  - OstaliObjekti
   layers:
   - Default
   - TransparentFX

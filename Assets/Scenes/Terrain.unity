@@ -337,6 +337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf0f0fecac8996a4f8ca155ec31902ef, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -478,6 +482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barn_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07edbf81de4550f46aeb2bd3b2ce6706, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -564,6 +572,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d6def51f900d30b49881eea9d658c2e5, type: 3}
       propertyPath: m_Name
       value: Windmill (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6def51f900d30b49881eea9d658c2e5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -783,6 +795,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9a4b13afacf5c724280336406d2fe990, type: 3}
       propertyPath: m_Name
       value: House_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9a4b13afacf5c724280336406d2fe990, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1059,6 +1075,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c8d9bbd011a1f24182350b5d604b4c5, type: 3}
       propertyPath: m_Name
       value: Watch_Tower (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c8d9bbd011a1f24182350b5d604b4c5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1774,6 +1794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Well
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35bc4e2b408732247aa3c9a8fcd9512f, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2073,6 +2097,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9a4b13afacf5c724280336406d2fe990, type: 3}
       propertyPath: m_Name
       value: House_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9a4b13afacf5c724280336406d2fe990, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3018,6 +3046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Watch_Tower (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c8d9bbd011a1f24182350b5d604b4c5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3348,6 +3380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_07 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d46525288bf26e14aba3e9514ab63fc7, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3515,6 +3551,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5bb7948199dc9094aa23dbc0d0f86613, type: 3}
       propertyPath: m_Name
       value: Water_Tank (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5bb7948199dc9094aa23dbc0d0f86613, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3856,6 +3896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_01
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84e8cd7ad90e36640a7622f29c47d853, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3967,12 +4011,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7327206557041149155, guid: dfb0fbdb3e1e8144e872ef4e41f9d317, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327206557041149155, guid: dfb0fbdb3e1e8144e872ef4e41f9d317, type: 3}
       propertyPath: m_IncludeLayers.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7597042998556555700, guid: dfb0fbdb3e1e8144e872ef4e41f9d317, type: 3}
       propertyPath: m_Name
       value: Barn_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597042998556555700, guid: dfb0fbdb3e1e8144e872ef4e41f9d317, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6448,6 +6500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a742103d530ba2143a5a0eb829e89662, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6588,6 +6644,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c8d9bbd011a1f24182350b5d604b4c5, type: 3}
       propertyPath: m_Name
       value: Watch_Tower (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c8d9bbd011a1f24182350b5d604b4c5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7613,7 +7673,7 @@ GameObject:
   - component: {fileID: 498151095}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: OstaliObjekti
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8104,6 +8164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_06
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97f960fe472621d45837611e2d974afd, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8217,6 +8281,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9a4b13afacf5c724280336406d2fe990, type: 3}
       propertyPath: m_Name
       value: House_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9a4b13afacf5c724280336406d2fe990, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9865,6 +9933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84e8cd7ad90e36640a7622f29c47d853, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10427,6 +10499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_06 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97f960fe472621d45837611e2d974afd, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10935,6 +11011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Woods
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8001415a0c2d1ce44b31ddc0f7a7e8fa, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11234,6 +11314,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6f3c96e1c8fb50946899c94eb00593cb, type: 3}
       propertyPath: m_Name
       value: House_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6f3c96e1c8fb50946899c94eb00593cb, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11771,6 +11855,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6f3c96e1c8fb50946899c94eb00593cb, type: 3}
       propertyPath: m_Name
       value: House_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6f3c96e1c8fb50946899c94eb00593cb, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13090,6 +13178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_06 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97f960fe472621d45837611e2d974afd, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13521,6 +13613,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c8d9bbd011a1f24182350b5d604b4c5, type: 3}
       propertyPath: m_Name
       value: Watch_Tower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c8d9bbd011a1f24182350b5d604b4c5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14070,6 +14166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bank_02
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d995b826105a52a44aa3f2de5602705a, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14327,6 +14427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Tank
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5bb7948199dc9094aa23dbc0d0f86613, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14413,6 +14517,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bf0f0fecac8996a4f8ca155ec31902ef, type: 3}
       propertyPath: m_Name
       value: House_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf0f0fecac8996a4f8ca155ec31902ef, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14606,6 +14714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a742103d530ba2143a5a0eb829e89662, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14747,6 +14859,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d6def51f900d30b49881eea9d658c2e5, type: 3}
       propertyPath: m_Name
       value: Windmill (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6def51f900d30b49881eea9d658c2e5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14996,6 +15112,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5bb7948199dc9094aa23dbc0d0f86613, type: 3}
       propertyPath: m_Name
       value: Water_Tank (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5bb7948199dc9094aa23dbc0d0f86613, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15337,6 +15457,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bf0f0fecac8996a4f8ca155ec31902ef, type: 3}
       propertyPath: m_Name
       value: House_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf0f0fecac8996a4f8ca155ec31902ef, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16764,6 +16888,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6cc3f0acf7e31ae44a9210b3695cc2a1, type: 3}
       propertyPath: m_Name
       value: Barn_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6cc3f0acf7e31ae44a9210b3695cc2a1, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18353,6 +18481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Windmill (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6def51f900d30b49881eea9d658c2e5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19164,7 +19296,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644567442}
   m_LocalRotation: {x: -0.0764516, y: 0.000000019092107, z: 0.000000051019004, w: 0.9970733}
-  m_LocalPosition: {x: 0, y: 0, z: 0.639}
+  m_LocalPosition: {x: 0, y: 0, z: 0.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19172,7 +19304,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -8.769, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.627, y: 2.972}
+  m_AnchoredPosition: {x: -1.63, y: 2.97}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644567444
@@ -19474,6 +19606,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 97f960fe472621d45837611e2d974afd, type: 3}
       propertyPath: m_Name
       value: House_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97f960fe472621d45837611e2d974afd, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20098,6 +20234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6f3c96e1c8fb50946899c94eb00593cb, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20212,6 +20352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tractor_Red
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dbecf46c684fb9844bdc9b5453bd5606, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20271,6 +20415,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 97f960fe472621d45837611e2d974afd, type: 3}
       propertyPath: m_Name
       value: House_06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97f960fe472621d45837611e2d974afd, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20990,6 +21138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d46525288bf26e14aba3e9514ab63fc7, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21208,6 +21360,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2c850ea59919e324780ad0b96dfc25de, type: 3}
       propertyPath: m_Name
       value: Stand_Purple
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2c850ea59919e324780ad0b96dfc25de, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22184,6 +22340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vooden_Barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d560252d43f89104b8eb0cdd16221d6b, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22310,7 +22470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114448757451087952, guid: 5732021809ca98a46b7c1c2c35d5ac40, type: 3}
       propertyPath: salvoCount
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114448757451087952, guid: 5732021809ca98a46b7c1c2c35d5ac40, type: 3}
       propertyPath: fireChance3outof5
@@ -22950,6 +23110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barn_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07edbf81de4550f46aeb2bd3b2ce6706, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23223,6 +23387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Watch_Tower
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c8d9bbd011a1f24182350b5d604b4c5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23282,6 +23450,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d46525288bf26e14aba3e9514ab63fc7, type: 3}
       propertyPath: m_Name
       value: House_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d46525288bf26e14aba3e9514ab63fc7, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23562,6 +23734,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d6def51f900d30b49881eea9d658c2e5, type: 3}
       propertyPath: m_Name
       value: Windmill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6def51f900d30b49881eea9d658c2e5, type: 3}
+      propertyPath: m_TagString
+      value: OstaliObjekti
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
