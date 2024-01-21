@@ -14,7 +14,7 @@ public class MortarShell : MonoBehaviour {
     public GameObject teren4;
     public GameObject teren5;
 
-    public static int broj = 20;
+    public static int broj = 30;
     // Use this for initialization
 	void Start () {
         mortarRigidbody = GetComponent<Rigidbody>();

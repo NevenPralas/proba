@@ -35,7 +35,7 @@ public class Kraj : MonoBehaviour
         messageText.color = color;
         messageText.fontSize = 200;
         messageText.alignment = TextAlignmentOptions.Center;
-        messageText.rectTransform.sizeDelta = new Vector2(1000, 1000); 
+        messageText.rectTransform.sizeDelta = new Vector2(1000, 1000);
         messageText.overflowMode = TextOverflowModes.Overflow;
         messageText.gameObject.SetActive(true);
     }
