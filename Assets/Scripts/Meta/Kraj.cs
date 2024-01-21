@@ -33,18 +33,27 @@ public class Kraj : MonoBehaviour
     {
         messageText.text = message;
         messageText.color = color;
+        messageText.fontSize = 200;
+        messageText.alignment = TextAlignmentOptions.Center;
+        messageText.rectTransform.sizeDelta = new Vector2(1000, 1000); 
+        messageText.overflowMode = TextOverflowModes.Overflow;
         messageText.gameObject.SetActive(true);
     }
 
     void ShowReturnToMainMenuButton()
     {
         returnToMainMenuButton.gameObject.SetActive(true);
+
+        returnToMainMenuButton.GetComponent<RectTransform>().sizeDelta = new Vector2(500, 100);
+
+        returnToMainMenuButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -250);
+        returnToMainMenuButton.GetComponentInChildren<TextMeshProUGUI>().fontSize = 50;
         returnToMainMenuButton.onClick.AddListener(ReturnToMainMenu);
     }
 
     void ReturnToMainMenu()
     {
         Time.timeScale = 1f; // Pusti igru
-        SceneManager.LoadScene("MainMenu"); // Zamijenite "MainMenu" s imenom vaše scene glavnog izbornika
+        SceneManager.LoadScene("MainMenu"); // Zamijenite "MainMenu" s imenom vaï¿½e scene glavnog izbornika
     }
 }
