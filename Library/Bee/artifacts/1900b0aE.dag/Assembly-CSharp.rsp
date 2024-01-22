@@ -385,6 +385,7 @@
 "Assets/Scripts/Kretanje2.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Meta/Kraj.cs"
+"Assets/Scripts/Meta/Kraj2.cs"
 "Assets/Scripts/Meta/ProtivniciON.cs"
 "Assets/Scripts/Pogodak.cs"
 "Assets/Scripts/Raketice/RaketicePojavaNestanak.cs"

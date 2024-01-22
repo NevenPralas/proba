@@ -5342,6 +5342,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 044a0b8d2e4af894296571c93b5a7eb1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1072570606}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 044a0b8d2e4af894296571c93b5a7eb1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1072570607}
     - targetCorrespondingSourceObject: {fileID: -8615255786460680380, guid: 044a0b8d2e4af894296571c93b5a7eb1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 452878915}
@@ -8315,7 +8318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &561698129
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10291,9 +10294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Povratak
-
-'
+  m_text: Press Q
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13076,6 +13077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messageText: {fileID: 722195301}
   returnToMainMenuButton: {fileID: 561698130}
+  canvasGroup: {fileID: 1980563169}
 --- !u!82 &1072570606
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13172,6 +13174,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1072570607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072570598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5add66399fc13944bbd7c35b9d336b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1073418258 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8718947029416546183, guid: 044a0b8d2e4af894296571c93b5a7eb1, type: 3}
@@ -13776,6 +13790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messageText: {fileID: 722195301}
   returnToMainMenuButton: {fileID: 561698130}
+  canvasGroup: {fileID: 0}
 --- !u!1 &1133340434 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8544500346642507370, guid: 044a0b8d2e4af894296571c93b5a7eb1, type: 3}
@@ -14916,7 +14931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 496539b45d38b47479fb949e6c85eb05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 60
 --- !u!114 &1229713563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19298,19 +19313,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7117402367348631381, guid: bdb1cbda3fa076749b577d0be9dcd112, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.3103558
+      value: 0.61237246
       objectReference: {fileID: 0}
     - target: {fileID: 7117402367348631381, guid: bdb1cbda3fa076749b577d0be9dcd112, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.17918402
+      value: 0.3535534
       objectReference: {fileID: 0}
     - target: {fileID: 7117402367348631381, guid: bdb1cbda3fa076749b577d0be9dcd112, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.4667902
+      value: 0.3535534
       objectReference: {fileID: 0}
     - target: {fileID: 7117402367348631381, guid: bdb1cbda3fa076749b577d0be9dcd112, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.80850434
+      value: -0.61237246
       objectReference: {fileID: 0}
     - target: {fileID: 7117402367348631381, guid: bdb1cbda3fa076749b577d0be9dcd112, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19322,7 +19337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7117402367348631381, guid: bdb1cbda3fa076749b577d0be9dcd112, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -138
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 7611234127378620182, guid: bdb1cbda3fa076749b577d0be9dcd112, type: 3}
       propertyPath: m_RenderMode

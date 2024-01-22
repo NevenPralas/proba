@@ -121,6 +121,7 @@
     <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\CurveControlledBob.cs" />
     <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Characters\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Ilumisoft\RadarSystem\Demo\Scripts\DemoCharacterController.cs" />
+    <Compile Include="Assets\Scripts\Meta\Kraj2.cs" />
     <Compile Include="Assets\G_36_Demo\Scripts\MortarCrewLoader.cs" />
     <Compile Include="Assets\Scripts\Kretanje2.cs" />
     <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\AutoMoveAndRotate.cs" />
