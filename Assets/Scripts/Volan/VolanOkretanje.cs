@@ -12,12 +12,12 @@ public class VolanOkretanje : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             rotacijaLijevo = true;
             rotacijaDesno = false;
         }
-        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
             rotacijaLijevo = false;
             rotacijaDesno = true;
